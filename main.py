@@ -151,9 +151,6 @@ class Main(object):
             self.count = 2 - prize_len % 2
         elif self.type > 3:
             self.count = 1
-        print('count=' + str(self.count))
-        print('type=' + str(self.type))
-        print('len=' + str(prize_len))
 
     def start_prize_thread(self):
         PrizeThread(
